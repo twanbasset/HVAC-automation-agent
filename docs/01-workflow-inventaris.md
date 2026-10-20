@@ -27,17 +27,13 @@ Aanvraag → Intake/schouw → Offerte → Opdracht → Planning → Uitvoering 
 | 12 | **Kennisbank monteurs** | Handleidingen/foutcodes zoeken op locatie | Vraag-antwoord over installatiehandleidingen en foutcodes | 3 | 5 |
 | 13 | **Reviews & nazorg** | Weinig Google reviews | Na oplevering automatisch tevredenheid/review vragen | 2 | 5 |
 
-## Eerste hypothese voor MVP
+## Beslissingen (sessie 2)
 
-Combinatie met hoge impact én haalbaarheid, zonder diepe integratie te vereisen:
+- **Doelgroep:** HVAC-installateurs: warmtepompen, airco, cv-onderhoud.
+- **Software MVP:** Syntess (projecten/planning/werkbonnen) en Exact Online (boekhouding/facturatie).
+- **Grootste pijnpunten:** handmatige offertes, handmatig inplannen van monteurs, vergeten materialen, ontbrekende foto's/documentatie na reparatie.
+- **Kanalen:** één centraal platform met kanaal-adapters (e-mail, WhatsApp, webportaal, later telefoon), per klant aan/uit te zetten.
+- **Pilotklant:** volgt.
 
-- **A. Inbox-agent**: aanvragen + storingsmeldingen (1, 11) triëren, uitvragen, inplannen-voorstel
-- **B. Offerte-agent**: opname → concept-offerte → follow-up (2, 3, 4)
-
-## Open vragen (te beantwoorden samen)
-
-1. Welk type installatiebedrijf is de doelgroep (warmtepomp/airco, cv/onderhoud, E+W breed)? Grootte?
-2. Welke software gebruiken zij (bijv. Gripp, Syntess, Kubus/Bouwsoft, WeFact, Exact, Moneybird, Simpro)?
-3. Welke workflow kost hen nu de meeste tijd of omzet?
-4. Heb je toegang tot een pilotklant om processen te valideren?
-5. Kanalen: e-mail, WhatsApp, telefoon (voicebot)?
+Uitwerking van de focus-workflows: [`02-focus-workflows.md`](02-focus-workflows.md).
+Architectuur: [`03-architectuur.md`](03-architectuur.md).
