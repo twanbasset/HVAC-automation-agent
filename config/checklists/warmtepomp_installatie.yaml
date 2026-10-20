@@ -1,0 +1,31 @@
+job_type: warmtepomp_installatie
+name: Installatie warmtepomp
+items:
+  - key: foto_buitenunit
+    kind: photo
+    label: Foto buitenunit (geplaatst, met omgeving)
+  - key: foto_typeplaatje_buitenunit
+    kind: photo
+    label: Foto typeplaatje buitenunit (serienummer leesbaar)
+    extract: [merk, type, serienummer]
+  - key: foto_binnenunit
+    kind: photo
+    label: Foto binnenunit / hydrobox
+  - key: foto_leidingwerk
+    kind: photo
+    label: Foto aansluitingen leidingwerk en isolatie
+  - key: foto_meterkast
+    kind: photo
+    label: Foto meterkast met aangesloten groep
+  - key: vacuumtest
+    kind: measurement
+    label: Vacuümtest (mbar, standtijd)
+  - key: druktest
+    kind: measurement
+    label: Druktest stikstof (bar)
+  - key: koudemiddel_bijgevuld
+    kind: measurement
+    label: Koudemiddel bijgevuld (kg, 0 indien niet)
+  - key: handtekening_klant
+    kind: confirmation
+    label: Akkoord / handtekening klant

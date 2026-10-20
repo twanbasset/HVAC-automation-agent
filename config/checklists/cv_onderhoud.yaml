@@ -1,0 +1,22 @@
+job_type: cv_onderhoud
+name: Onderhoud cv-ketel
+items:
+  - key: foto_typeplaatje_ketel
+    kind: photo
+    label: Foto typeplaatje ketel
+    extract: [merk, type, serienummer, bouwjaar]
+  - key: foto_ketel_open
+    kind: photo
+    label: Foto ketel geopend (brander/warmtewisselaar)
+  - key: rookgasmeting
+    kind: measurement
+    label: Rookgasmeting (CO ppm, CO2 %)
+  - key: waterdruk
+    kind: measurement
+    label: Waterdruk na onderhoud (bar)
+  - key: foto_na_afronding
+    kind: photo
+    label: Foto ketel gesloten na afronding
+  - key: handtekening_klant
+    kind: confirmation
+    label: Akkoord / handtekening klant

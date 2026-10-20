@@ -1,0 +1,25 @@
+job_type: airco_installatie
+name: Installatie airco (split)
+items:
+  - key: foto_buitenunit
+    kind: photo
+    label: Foto buitenunit (geplaatst, beugels/voeten)
+  - key: foto_typeplaatje_buitenunit
+    kind: photo
+    label: Foto typeplaatje buitenunit (serienummer leesbaar)
+    extract: [merk, type, serienummer]
+  - key: foto_binnenunit
+    kind: photo
+    label: Foto binnenunit(s)
+  - key: foto_condensafvoer
+    kind: photo
+    label: Foto condensafvoer
+  - key: vacuumtest
+    kind: measurement
+    label: Vacuümtest (mbar, standtijd)
+  - key: koudemiddel_bijgevuld
+    kind: measurement
+    label: Koudemiddel bijgevuld (kg, 0 indien niet)
+  - key: handtekening_klant
+    kind: confirmation
+    label: Akkoord / handtekening klant
